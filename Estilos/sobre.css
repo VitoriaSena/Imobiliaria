@@ -1,0 +1,109 @@
+.secao-1{
+
+    background-color: rgb(239, 239, 206);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.img{
+    width: 300px;
+}
+.img img{
+    width: 100%;
+}
+.links{
+    background-color: #a5a6a9;
+    color:black ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: .25rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 2.3s;
+}
+
+.links:hover{
+    opacity: .5;
+
+ 
+
+}
+body{
+    background-color: #121b25;
+}
+.foto{
+    background: url(/imagens/Rectangle\ 2.png) top left repeat;
+    background-size: cover;
+    height: 280px;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(36, 42, 5,0.7);
+    margin-right: auto;
+    margin-left: auto;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+ 
+
+.nome{
+    text-align: center;
+    margin: 0; 
+    color: rgba(255, 255, 255, 0.742);
+    text-shadow: 6%;
+    font-weight: 900;
+    font-size: 8vh;
+}
+.subtitulo{
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 2.3em;
+}
+.prime{
+    text-align: center;
+    text-shadow: 10px black;
+    font-weight: 900;
+}
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+ 
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+ 
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+ 
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ 
+
+.footer-links a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+p{
+    font-size: 1.5em;
+    color: #fff;
+}

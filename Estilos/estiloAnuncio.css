@@ -1,0 +1,98 @@
+body{
+    background-color: #121b25;  
+    text-align: center;  
+    color: #fff; 
+    font-family: 'work sans',sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 45%;
+    max-width: 440px;
+    height: auto;
+    background-color:#3498db;
+    color: #fff; 
+    border-radius: 8px;
+    padding: 15px;
+    font-size: small;
+    float: center;
+    font-family: 'work sans',sans-serif;
+    }
+
+.frm-row{
+    text-align: left;
+    margin: 10px;
+
+}
+
+.frm-row label{
+    display: block
+    
+}
+
+.frm-row input{
+    width: 100%;
+    padding: 1px;
+}
+
+.caixa1{
+    color: #fff; 
+    margin: auto;
+    width: 45%;
+    max-width: 440px;
+    height: auto;
+    background-color:#3498db;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: small;
+    font-family: 'work sans',sans-serif;
+    }
+
+.caixa{
+    margin: auto;
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    background-color:#3498db;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: small;
+    font-family: 'work sans',sans-serif;
+    color: #fff; 
+}
+
+h2{
+    font-family: 'work sans',sans-serif;
+   margin-top: 80px;
+}
+
+p{
+    color: #fff; 
+    background-color: rgb(3, 1, 75);
+    font-family: 'work sans',sans-serif;
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.picture__input{
+    display: none ;
+}
+
+.picture{
+    width: 400px;
+    aspect-ratio: 16/9;
+    background-color: rgb(3, 1, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    border: 2px dashed rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-family: 'work sans',sans-serif;
+}

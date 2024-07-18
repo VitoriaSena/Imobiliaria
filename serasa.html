@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar CPF</title>
+  <link rel="stylesheet" type="text/css" href="Estilos/estilo-serasa.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Verificar Seu CPF</h1>
+    <input type="text" id="cpf" placeholder="Digite os 11 números do CPF">
+    <button onclick="verificarCPF()">Verificar</button>
+    <button id="tentarNovamente" style="display: none;" onclick="tentarNovamente()">Tentar Novamente</button>
+    <a href="telaLogin.html" target="_self"><button id="prosseguirCadastro" style="display: none;" onclick="prosseguirParaCadastro()">Prosseguir para o Cadastro</button></a>
+    <p id="resultado"></p>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
